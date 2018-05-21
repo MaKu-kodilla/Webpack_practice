@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+.Title {
+    text-align: center;
+}
+.Title h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
