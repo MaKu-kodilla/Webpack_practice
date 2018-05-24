@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './App.css';
 import Title from '../components/Title';
+import uuid from 'uuid';
 
 class App extends React.Component {
     constructor(props) {
@@ -25,8 +26,8 @@ class App extends React.Component {
     render() {
         return (
             <div className={style.TodoApp}>
-                <p>Test</p>
-                <Title title={'TodoApp'}/>
+                <Title title="ToDoApp"
+                count =  {this.state.data.lenght}/>
             </div>
         );
     }
