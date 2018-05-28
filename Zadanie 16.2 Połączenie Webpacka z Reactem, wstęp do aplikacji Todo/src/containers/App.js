@@ -27,7 +27,7 @@ class App extends React.Component {
         return (
             <div className={style.TodoApp}>
                 <Title title="ToDoApp"
-                count =  {this.state.data.lenght}/>
+                count =  {this.state.data.length}/>
             </div>
         );
     }
