@@ -1,0 +1,14 @@
+.TodoItem {
+    font-style: italic;
+    margin: 20px auto;
+    cursor: pointer;
+    max-width: 200px;
+    font-size: 26px;
+}
+
+.TodoItem:hover {
+    color: red;
+    text-decoration: line-through;
+    transition: all 0.3s ease-in-out;
+    
+}
